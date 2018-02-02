@@ -4,3 +4,6 @@ SSR with ReactJS and ReduxJS for Front End Applications
 ## Setup the Project
 Build and Run the App
 > npm run dev
+
+## API calls
+https://react-ssr-api.herokuapp.com/
