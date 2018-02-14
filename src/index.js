@@ -33,8 +33,15 @@ app.get('*', (req, res) => {
   });
   console.info('promises', promises);
   Promise.all(promises).then(() => {
+    const context = {};
+
+    const content = renderer(req, store, context);
+    if (context.notFound) {
+      res.status(404);
+    }
+
     // render the applications
-    res.send(renderer(req, store));
+    res.send(content);
   });
 });
 
