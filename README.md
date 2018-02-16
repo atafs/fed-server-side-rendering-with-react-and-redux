@@ -13,3 +13,6 @@ https://react-ssr-api.herokuapp.com/users/xss
 
 ## CSS (materializacss)
 http://materializecss.com/getting-started.html
+
+## Open Graph (SEO)
+http://ogp.me/
