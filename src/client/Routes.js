@@ -24,7 +24,7 @@ export default [
         path: '/users'
       },
       {
-        ...NotFoundPage,
+        ...NotFoundPage
       }
     ]
   }
